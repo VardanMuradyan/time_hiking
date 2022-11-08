@@ -1,0 +1,139 @@
+.header {
+    padding: 30px 0 0 0;
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    z-index: 100;
+    width: 100%;
+}
+
+.header_item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.header_logo {
+    width: 90px;
+    height: 90px;
+    flex-shrink: 0;
+}
+
+.header_search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.header_search input {
+    width: 160px;
+    height: 50px;
+    font-size: 16px;
+    padding: 0 40px 0 10px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: rgba(127, 119, 112, 0.75);
+}
+
+.header_search i {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+}
+
+.header_logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.header_nav {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    justify-content: space-between;
+}
+
+.header_nav_item ul {
+    display: flex;
+    gap: 20px;
+}
+
+.header_nav_link {
+    font-weight: 700;
+    text-decoration: none;
+    color: #54524f;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.header_nav_link:hover {
+    color: #000000;
+}
+
+/*  Menu    */
+.header_menu {
+    display: none;
+}
+
+.header_menu button {
+    width: 40px;
+    height: 40px;
+    font-size: 40px;
+    text-align: center;
+    border: none;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cross_btn {
+    top: 40px;
+    right: 40px;
+    position: absolute;
+    color: white;
+}
+
+.header_menu > button:hover {
+    color: #e2a355;
+}
+
+.header-menu__link {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e2a355;
+    position: fixed;
+    left: 100%;
+    top: 0;
+    z-index: 2000;
+    transition: left 300ms ease-out;
+}
+
+.menu__active {
+    transform: translateX(-100%);
+}
+
+.header-menu__link ul  {
+    display: block;
+
+}
+
+.menu_nav_link {
+    text-decoration: none;
+    color: #54524f;
+    font-weight: 700;
+    line-height: 100px;
+    font-size: 40px;
+    display: block;
+    text-align: center;
+    text-transform: capitalize;
+}

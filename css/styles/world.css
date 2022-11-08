@@ -1,0 +1,9 @@
+.world {
+    background-image: url("../../images/intro/Shape_up.png"), url("../../images/intro/Shape_dn.png"),
+    url("../../images/image/6.jpg"), url("../../images/intro/Shape_dn.png");
+    background-color: #99928d;
+    background-repeat: no-repeat;
+    background-position: left top, center bottom, center left;
+    background-size: 100% 20%, 100% 20%, 40% 40%, 100% 100%;
+    position: relative;
+}

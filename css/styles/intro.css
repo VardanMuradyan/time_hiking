@@ -1,0 +1,51 @@
+.intro {
+    background-image: url("../../images/intro/Shape_up.png"), url("../../images/intro/Shape_dn.png"), url("../../images/intro/1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 11%, 100% 12%, cover;
+    position: relative;
+    background-position: top left 0, bottom left 0, top left 0;
+    width: 100%;
+}
+
+.intro_inner {
+    width: 50%;
+    padding: 288px 0 210px 0;
+}
+
+.intro_title {
+    font-size: 92px;
+    color: #deb37e;
+    margin-bottom: 26px;
+}
+
+.intro_title > h1 {
+    text-transform: uppercase;
+}
+
+.intro_subtitle {
+    color: #54524f;
+    font-size: 25px;
+    margin-bottom: 76px;
+}
+
+.intro_subtitle > p {
+    text-transform: uppercase;
+}
+
+.intro__button{
+    font-size: 25px;
+    color: #776c64;
+    transition: color, background-color 280ms ease-out;
+    margin-bottom: 26px;
+}
+
+.intro_btn > a:hover {
+    color: #fefdfc;
+    background-color: #e2a355;
+}
+
+.intro-text {
+    max-width: 420px;
+    font-size: 20px;
+    color: #54524f;
+}

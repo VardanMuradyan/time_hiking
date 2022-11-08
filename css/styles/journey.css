@@ -1,0 +1,79 @@
+.journey {
+    padding-bottom: 180px;
+    background-image: url("../../images/Shadow_.png");
+    background-position:left bottom;
+    background-size: 40% 40%;
+    background-repeat: no-repeat;
+}
+
+.journey_inner {
+    text-align: center;
+}
+
+.journey_name {
+    font-size: 62px;
+    color: #e2a355;
+    margin-bottom: 50px;
+}
+
+.journey_text {
+    display: inline-block;
+    max-width: 780px;
+    font-size: 28px;
+    color: #7f7770;
+    margin-bottom: 70px;
+}
+
+.journey_items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 90px;
+}
+
+.journey_box {
+    flex: 1;
+    max-width: 342px;
+    background-color: #7f7770;
+    margin-bottom: 50px;
+    transition: 280ms ease-out;
+}
+
+.journey_box:hover {
+    box-shadow: 8px 4px 5px #54524f;
+}
+
+.journey_img {
+    max-width: 342px;
+    max-height: 300px;
+}
+
+.journey_img > img {
+    width: 100%;
+    height: 100%;
+}
+
+.journey_box__content {
+    text-align: start;
+    padding: 56px 0 70px 16px;
+}
+
+.journey_box__title {
+    font-size: 30px;
+    color: #ffffff;
+    margin-bottom: 28px;
+}
+
+.journey_box__subtitle {
+    font-size: 22px;
+    color: #ffffff;
+}
+
+.journey_inner > .journey_box__button {
+    background-color: #7f7770;
+    color: #ffffff;
+    transition: background-color 280ms ease-out;
+}
+
+.journey_box__button:hover {
+    background-color: #54524f;
+}

@@ -1,0 +1,57 @@
+.mountains {
+    background-image: url("../../images/intro/Shape_up.png"), url("../../images/intro/Shape_dn.png"),
+    url("../../images/Shadow_.png");
+    background-color: #99928d;
+    background-repeat: no-repeat;
+    background-position: left top, center bottom, center left;
+    background-size: 100% 20%, 100% 20%, 40% 40%, 100% 100%;
+    position: relative;
+}
+
+.mountains_inner {
+    padding: 20% 0;
+}
+
+.mountains_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.mountains_title {
+    color: #ffffff;
+    font-size: 58px;
+    margin-bottom: 42px;
+}
+
+.mountains_subtitle {
+    width: 65%;
+    font-size: 30px;
+    color: #dbdbdb;
+}
+
+.mountains_img_up {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.mountains_img_up img {
+    width: 100%;
+    height: auto;
+}
+
+.mountains_img_dn {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.mountains_img_dn img {
+    width: 100%;
+    height: auto;
+}

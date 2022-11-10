@@ -1,9 +1,32 @@
 .world {
-    background-image: url("../../images/intro/Shape_up.png"), url("../../images/intro/Shape_dn.png"),
-    url("../../images/image/6.jpg"), url("../../images/intro/Shape_dn.png");
-    background-color: #99928d;
+    background-image: url("../../images/intro/Shape_up.png"),
+    url("../../images/intro/Shape_dn.png"),
+    url("../../images/image/6.jpg");
     background-repeat: no-repeat;
     background-position: left top, center bottom, center left;
-    background-size: 100% 20%, 100% 20%, 40% 40%, 100% 100%;
+    background-size: 100% 20%, 100% 10%, auto 100%;
     position: relative;
+}
+
+.world_inner {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 38% 0;
+}
+
+.world_item {
+    text-align: right;
+    width: 50%;
+}
+
+.world_title {
+    font-size: 75px;
+    color: #deb37e;
+    text-indent: 20%;
+}
+
+.world_title__span {
+    font-size: 84px;
+    color: #54524f;
 }

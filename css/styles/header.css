@@ -115,7 +115,7 @@
     left: 100%;
     top: 0;
     z-index: 2000;
-    transition: left 300ms ease-out;
+    transition: transform 300ms ease-out;
 }
 
 .menu__active {
